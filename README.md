@@ -9,7 +9,7 @@ Here's a few screenshots of the final webpage:
 
 ![webpage](https://user-images.githubusercontent.com/75706156/107603979-932c0b80-6bfc-11eb-8faa-dbd054d27936.png)
 
-![webpage](https://user-images.githubusercontent.com/75706156/107603977-932c0b80-6bfc-11eb-9116-deeda8e034c6.png)
+![webpage](https://user-images.githubusercontent.com/75706156/107603978-932c0b80-6bfc-11eb-9403-fcecebaf6128.png)
 
 ![webpage](https://user-images.githubusercontent.com/75706156/107603977-932c0b80-6bfc-11eb-9116-deeda8e034c6.png)
 
