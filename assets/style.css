@@ -7,16 +7,24 @@
 body {
     width: 100%;
     height: 100%;
-    font-family: 'roboto', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    background-color: rgb(255, 255, 255);
-    
+    background-color: rgb(255, 255, 255);    
+}
+
+/* this was added to keep the resume part of the nav bar from getting cut off from the others. Once it reaches a width of 839px on a web browser it'll take away the nav bar from visible view  */
+@media screen and (max-width: 839px) {
+    nav {
+      display: none;
+    }
+}
+
+.mainBody {
+    max-width: 700px;
+    margin: 0 auto;
 }
 
 header {
-    padding: 20px;
     color: white;
-    background-image: url(images/pawel-czerwinski-aelD0Zrmsy0-unsplash.jpg);
-    background-position: contain;
+    background-image: url(../images/pawel-czerwinski-aelD0Zrmsy0-unsplash.jpg);
     height: 300px;
     width: 100%;
     padding: 40px;
@@ -25,37 +33,22 @@ header {
 header h1 {
     text-shadow: 2px 2px 8px #aaaaaa;
     justify-content: center;
-    display: inline-block;
-    font-size: 55px;
-    font-family: 'signatrue';
-    width: 100%;
+    font-size: 45px;
+    font-family: 'signatrue', 'roboto';
     height: 100%;
     display: flex;
     align-items: center;
 }
 
 h2 {
-    justify-content: center;
-    display: inline-block;
     font-size: 30px;
     font-family: 'neoteric';
     width: 100%;
     height: 100%;
     display: flex;
     justify-content: center;
-    align-items: center;
     padding-top: 75px;
     padding-bottom: 25px;
-}
-
-form { 
-    margin: 0 auto; 
-    width:250px;
-    }
-
-form input {
-    padding: 10px;
-    width: 270px;
 }
 
 a {
@@ -64,10 +57,12 @@ a {
     font-family: "neoteric";
 }
 
+/* won't display the li for class="active  */
 a.active {
     display: none;
 }
 
+/* added these next couple lines so it would show a darker block around the text on the nav when hovering over it */
 a:hover + a.active {
     display:block; 
 }
@@ -77,9 +72,10 @@ a.active, a:hover {
     transition: .5s;   
 }
 
+/* increased the nav height for visual appeal */
 nav {
     width: 100%;
-    height: 40%;
+    height: 70px;
     background-color: rgb(255, 255, 255);
 } 
 
@@ -90,7 +86,7 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 7px 13px;
+    padding: 10px 13px;
     border-style:groove;
 }
 
@@ -101,79 +97,71 @@ nav ul li a {
     text-align: center;
 }
 
+/* adding this ensured that all the text in the nav bar was spaced out where I thought it looked best */
 li {
     margin: 0 4rem;
 }
 
 p {
     font-family: 'roboto';
-    margin-right: 5%;
-    margin-left: 10%;
     padding-top: 20px;
     padding-bottom: 20px;
-    padding-right: 17%;
-    padding-left: 17%;
 }
-
-/* img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    max-height: 30%;
-    width: 25%;
-    border-style: groove;
-} */
 
 .recentPicture {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    max-height: 30%;
-    width: 25%;
+    max-height: 500px;
+    width: 100%;
     border-style: groove;
-    height: 425px;
-    width: 425px;
+}
+
+.cityimg {
+    display: block;
+    max-height: 30%;
+    width: 100%;
+    border-style: groove;
+}
+
+.otherimg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 300px;
+    overflow: hidden;
+    width: 50%;
+    flex: wrap;
+    float: left;
+    border-style: groove;
 }
 
 #email {
     margin-bottom: 60px;
 }
 
-.footer {
-    border-top-style: 5px solid;
-    padding-top: 50px;
-    background-image: url(images/pawel-czerwinski-aelD0Zrmsy0-unsplash.jpg);
-    background-position: bottom;
-    height: 125px;
-    width: 100%;
+/* for the next few lines, I decided to add a form that I could mess around with later once we learn how to in class. I left it in because I thought it looked pretty nice */
+form { 
+    margin: 0 auto; 
+    width:250px;
+    }
+
+form input {
+    padding: 10px;
+    width: 270px;
 }
 
-.nav-list2 {
+/* added this because I can't get a form to work yet. I'm going to add to these references once I get my LinkedIn profile finished */
+.contactFooter {
+    display: flex;
+    justify-content: center;
+    padding: 10px 13px;
+}
+
+.contactFooter li {
     list-style: none;
-    width: 100%;
-    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 7px 13px;
-}
-
-nav ul li a {
-    color:black;
-    padding: 7px 13px;
-    border-radius: 2px;
-    text-align: center;
-}
-
-a.active2 {
-    display: none;
-}
-
-a:hover + a.active2 {
-    display:block; 
-}
-
-a.active2, a:hover {
-    background: rgb(245, 245, 245);
-    transition: .5s;   
+    padding-bottom: 10px;
 }

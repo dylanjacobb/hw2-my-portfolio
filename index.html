@@ -15,7 +15,7 @@
         <nav>
             <ul class="nav-list">
                 <li>
-                    <a class="active" href="home.html"></a>
+                    <a class="active"></a>
                 </li>
                 <li>
                     <a href="#about">About Me</a>
@@ -27,44 +27,73 @@
                     <a href="#contact">Contact Me</a>
                 </li>
                 <li>
-                    <a href="#resume">Resume</a>
+                    <!-- added a link to resume builder because I can't find it on my computer. I'll update once I've created a new one -->
+                    <a href="https://resume.io/?gclid=Cj0KCQiApY6BBhCsARIsAOI_Gjb3U08KDVSHBDzlhgJUnrXy3Y8LYPpXRreCfv5K7nTyY14AtJW2msYaAhkFEALw_wcB"
+                        target="blank">Resume</a>
                 </li>
             </ul>
         </nav>
     </header>
-    <br>
-    <br>
-    <h2 id="about">About Me</h2>
-    <img class="recentPicture" src="images/IMG_0930.jpeg">
-    <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam facilisis urna ultrices quam porttitor, eu
-        luctus odio rhoncus. Sed semper massa ut cursus congue. Maecenas varius efficitur leo nec interdum. Ut molestie
-        eleifend ligula, eu scelerisque velit tincidunt ac. Nunc fermentum mi ultrices, blandit urna quis, auctor metus.
-        Morbi pellentesque lorem a sollicitudin egestas. Phasellus viverra hendrerit nisl vel rutrum. Aliquam lacinia
-        rutrum urna. Maecenas dictum orci lectus, at fermentum eros fringilla ut. Ut cursus mi sed massa pellentesque
-        mollis. Sed dui lorem, feugiat non tempus sit amet, porta sit amet elit.
-    </p>
-    <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi pellentesque lorem a sollicitudin egestas.
-        Phasellus viverra hendrerit nisl vel rutrum. Aliquam lacinia rutrum urna. Maecenas dictum orci lectus, at
-        fermentum eros fringilla ut. Ut cursus mi sed massa pellentesque
-        mollis. Sed dui lorem, feugiat non tempus sit amet, porta sit amet elit. Aliquam facilisis urna ultrices quam
-        porttitor, eu
-        luctus odio rhoncus. Sed semper massa ut cursus congue. Maecenas varius efficitur leo nec interdum. Ut molestie
-        eleifend ligula, eu scelerisque velit tincidunt ac. Nunc fermentum mi ultrices, blandit urna quis, auctor metus.
-    </p>
-    <h2 id="work">My Work</h2>
-    <h2 id="contact">Contact Me</h2>
-    <form>
-        <label for="fname">First name:</label><br>
-        <input type="text" id="fname" name="fname"><br>
-        <label for="lname">Last name:</label><br>
-        <input type="text" id="lname" name="lname"><br>
-        <label for="email">Email:</label><br>
-        <input type="text" id="email" name="email">
-    </form>
-
-    <div class="footer"></div>
+    <!-- added mainBody class so I coiuld set the width of the doc to better fit what I wanted. I also added the margin: 0 auto to help get all my content in the center -->
+    <div class="mainBody">
+        <h2 id="about">About Me</h2>
+        <!-- I didn't have any good recent pictures of me so I just took one after class today and put it in as a filler until I can actually take a good one -->
+        <img class="recentPicture" src="images/IMG_0930.jpeg">
+        <!-- not sure if we needed to add any actual text here so I left it as lorem ipsum to free up some of my time to other things -->
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam facilisis urna ultrices quam porttitor, eu
+            luctus odio rhoncus. Sed semper massa ut cursus congue. Maecenas varius efficitur leo nec interdum. Ut
+            molestie
+            eleifend ligula, eu scelerisque velit tincidunt ac. Nunc fermentum mi ultrices, blandit urna quis, auctor
+            metus.
+            Morbi pellentesque lorem a sollicitudin egestas. Phasellus viverra hendrerit nisl vel rutrum. Aliquam
+            lacinia
+            rutrum urna. Maecenas dictum orci lectus, at fermentum eros fringilla ut. Ut cursus mi sed massa
+            pellentesque
+            mollis. Sed dui lorem, feugiat non tempus sit amet, porta sit amet elit.
+        </p>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi pellentesque lorem a sollicitudin egestas.
+            Phasellus viverra hendrerit nisl vel rutrum. Aliquam lacinia rutrum urna. Maecenas dictum orci lectus, at
+            fermentum eros fringilla ut. Ut cursus mi sed massa pellentesque
+            mollis. Sed dui lorem, feugiat non tempus sit amet, porta sit amet elit. Aliquam facilisis urna ultrices
+            quam
+            porttitor, eu
+            luctus odio rhoncus. Sed semper massa ut cursus congue. Maecenas varius efficitur leo nec interdum. Ut
+            molestie
+            eleifend ligula, eu scelerisque velit tincidunt ac. Nunc fermentum mi ultrices, blandit urna quis, auctor
+            metus.
+        </p>
+        <h2 id="work">My Work</h2>
+        <!-- I couldn't wrap my head around how to add the project title name over the images so I had to leave them blank. I'll come back and update once I have real projects to add and know how to add it -->
+        <!-- I just made the link go to my Github since I don't really have any projects yet. I figured you would want us to have a link anyway just to show that we could. -->
+        <a href="https://github.com/dylanjacobb" target="blank"><img class="cityimg"
+                src="images/gabriel-l1sqXJXBgd0-unsplash.jpg" alt="blurred city at night"></a>
+        <a href="https://github.com/dylanjacobb" target="blank"><img class="otherimg"
+                src="images/delfi-de-la-rua-Sj5efgWguDs-unsplash.jpg" alt="surfers riding waves"></a>
+        <a href="https://github.com/dylanjacobb" target="blank"><img class="otherimg"
+                src="images/efe-kurnaz-RnCPiXixooY-unsplash.jpg" alt="neon light hallway"></a>
+        <a href="https://github.com/dylanjacobb" target="blank"><img class="otherimg"
+                src="images/sebastian-unrau-sp-p7uuT0tw-unsplash.jpg" alt="hazy woods"></a>
+        <a href="https://github.com/dylanjacobb" target="blank"><img class="otherimg"
+                src="images/steven-erixon-FxlYmu_To7o-unsplash.jpg" alt="man running in the dark"></a>
+        <h2 id="contact">Contact Me</h2>
+        <!-- for this form, I did some research on w3schools as a refresher. I don't I can do anything with it without some JS so I decided to leave it there one the website so I can come back later and actually do something with it. -->
+        <form>
+            <label for="fname">First name:</label><br>
+            <input type="text" id="fname" name="fname"><br>
+            <label for="lname">Last name:</label><br>
+            <input type="text" id="lname" name="lname"><br>
+            <label for="email">Email:</label><br>
+            <input type="text" id="email" name="email">
+        </form>
+        <div class="contactFooter">
+            <ul>
+                <li>704-661-1678</li>
+                <li>dylanjacob.example@gmail.com</li>
+            </ul>
+        </div>
+    </div>
 </body>
 
 </html>
