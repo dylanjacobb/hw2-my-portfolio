@@ -7,11 +7,11 @@ Here's the link to my portfolio website: https://dylanjacobb.github.io/hw2-my-po
 
 Here's a few screenshots of the final webpage:
 
-![webpage](images/Screen Shot 2021-02-10 at 11.40.19 PM.png)
+![webpage](https://user-images.githubusercontent.com/75706156/107603979-932c0b80-6bfc-11eb-8faa-dbd054d27936.png)
 
-![webpage](images/Screen Shot 2021-02-10 at 11.40.50 PM.png)
+![webpage](https://user-images.githubusercontent.com/75706156/107603977-932c0b80-6bfc-11eb-9116-deeda8e034c6.png)
 
-![webpage](images/Screen Shot 2021-02-10 at 11.41.02 PM.png)
+![webpage](https://user-images.githubusercontent.com/75706156/107603977-932c0b80-6bfc-11eb-9116-deeda8e034c6.png)
 
 ### **Sources**
 * https://unsplash.com/photos/aelD0Zrmsy0?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink
