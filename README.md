@@ -1,7 +1,5 @@
 # hw2-my-portfolio
 
-(The final push for the read me was late)
-
 ## **Project Description**
 For this project we were asked to create our own portfolio for potential employeer's so they would be able to see what kind of work we did and if we'd be a good fit for the position they had open.
 
@@ -9,11 +7,11 @@ Here's the link to my portfolio website: https://dylanjacobb.github.io/hw2-my-po
 
 Here's a few screenshots of the final webpage:
 
-![webpage](https://user-images.githubusercontent.com/75706156/107603979-932c0b80-6bfc-11eb-8faa-dbd054d27936.png)
+![webpage](images/sc1.png)
 
-![webpage](https://user-images.githubusercontent.com/75706156/107603978-932c0b80-6bfc-11eb-9403-fcecebaf6128.png)
+![webpage](images/sc2.png)
 
-![webpage](https://user-images.githubusercontent.com/75706156/107603977-932c0b80-6bfc-11eb-9116-deeda8e034c6.png)
+![webpage](images/sc3.png)
 
 ### **Sources**
 * https://unsplash.com/photos/aelD0Zrmsy0?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink
