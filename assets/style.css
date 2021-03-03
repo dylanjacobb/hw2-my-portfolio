@@ -117,7 +117,7 @@ p {
     border-style: groove;
 }
 
-.cityimg {
+.fresh-air-finder {
     display: block;
     max-height: 30%;
     width: 100%;
@@ -146,6 +146,10 @@ form {
     width:250px;
     }
 
+label {
+    font-family: 'roboto';
+}
+
 form input {
     padding: 10px;
     width: 270px;
@@ -164,4 +168,9 @@ form input {
     justify-content: center;
     align-items: center;
     padding-bottom: 10px;
+    font-family: 'roboto';
 }
+
+.project-name {
+}
+
