@@ -58,7 +58,7 @@ h2 {
     display: flex;
     justify-content: center;
     padding-top: 75px;
-    padding-bottom: 25px;
+    margin-bottom: 25px;
 }
 
 .nav-link {
@@ -118,6 +118,11 @@ p {
     padding-bottom: 20px;
 }
 
+.project-desc {
+    color: black;
+    text-align: center;
+}
+
 .recentPicture {
     display: block;
     margin-left: auto;
@@ -147,6 +152,11 @@ p {
     border-style: groove;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
+    transition: .7s;
+}
+
+.project-images:hover {
+    transform: scale(1.01);
 }
 
 /* keeps the project images the same size */
